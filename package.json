@@ -1,0 +1,16 @@
+{
+  "name": "jobportal",
+  "version": "1.0.0",
+  "description": "Full-Stack MERN Job Portal Application",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "seed": "cd backend && node seed.js",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

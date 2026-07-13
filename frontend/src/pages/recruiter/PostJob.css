@@ -1,0 +1,11 @@
+.post-job-page { max-width: 860px; margin: 0 auto; padding: 24px; }
+.pj-title { font-family: var(--font-display); font-size: 26px; font-weight: 800; margin-bottom: 24px; }
+.post-job-form { display: flex; flex-direction: column; gap: 20px; }
+.section-h { font-family: var(--font-display); font-size: 17px; font-weight: 700; margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid var(--border-light); }
+.add-item-row { display: flex; gap: 10px; margin-bottom: 8px; }
+.two-col-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.item-list { list-style: none; display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+.item-list li { display: flex; align-items: center; justify-content: space-between; padding: 8px 12px; background: var(--bg); border-radius: var(--radius); font-size: 14px; }
+.item-list li button { background: none; border: none; color: var(--danger); cursor: pointer; padding: 2px; display: flex; }
+.pj-actions { display: flex; justify-content: flex-end; gap: 12px; padding-top: 8px; }
+@media (max-width: 600px) { .two-col-lists { grid-template-columns: 1fr; } .form-grid { grid-template-columns: 1fr; } }

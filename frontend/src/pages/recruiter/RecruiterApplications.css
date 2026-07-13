@@ -1,0 +1,16 @@
+.filters-row { display: flex; gap: 14px; margin-bottom: 16px; padding: 16px; flex-wrap: wrap; }
+.filters-row .form-control { max-width: 280px; }
+.match-chip-lg { padding: 4px 12px; background: #E8F5E9; color: var(--secondary); font-size: 13px; font-weight: 700; border-radius: 20px; white-space: nowrap; }
+.status-select {
+  padding: 6px 12px; border: 1.5px solid var(--border); border-radius: var(--radius);
+  font-size: 13px; font-weight: 600; background: white; cursor: pointer;
+  font-family: var(--font-body);
+}
+.candidate-detail-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.candidate-detail-grid h4 { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+.contact-info { display: flex; flex-direction: column; gap: 6px; }
+.contact-info div { display: flex; align-items: center; gap: 8px; font-size: 14px; color: var(--text-secondary); }
+.cover-letter { border-top: 1px solid var(--border-light); padding-top: 14px; }
+.cover-letter h4 { font-size: 14px; font-weight: 700; margin-bottom: 8px; }
+.cover-letter p { font-size: 14px; color: var(--text-secondary); line-height: 1.7; white-space: pre-line; }
+@media (max-width: 600px) { .candidate-detail-grid { grid-template-columns: 1fr; } }

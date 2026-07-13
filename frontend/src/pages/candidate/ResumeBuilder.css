@@ -1,0 +1,33 @@
+.resume-page { max-width: 860px; margin: 0 auto; padding: 24px; display: flex; flex-direction: column; gap: 16px; }
+.resume-toolbar { display: flex; align-items: center; justify-content: space-between; }
+.resume-toolbar h1 { font-family: var(--font-display); font-size: 26px; font-weight: 800; }
+.toolbar-actions { display: flex; gap: 10px; }
+.resume-note { background: #FFF8E1; border-left: 3px solid var(--accent); font-size: 14px; }
+
+.resume-preview { padding: 48px; font-family: 'DM Sans', sans-serif; line-height: 1.6; }
+.rv-header { text-align: center; margin-bottom: 32px; padding-bottom: 24px; border-bottom: 3px solid var(--primary); }
+.rv-name { font-family: var(--font-display); font-size: 32px; font-weight: 800; color: var(--primary); margin-bottom: 8px; }
+.rv-contact { font-size: 14px; color: var(--text-secondary); margin-bottom: 6px; }
+.rv-links { display: flex; justify-content: center; gap: 16px; font-size: 13px; }
+.rv-links a { color: var(--primary); text-decoration: underline; }
+
+.rv-section { margin-bottom: 28px; }
+.rv-section-title {
+  font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 1.5px;
+  color: var(--primary); border-bottom: 2px solid var(--primary-light); padding-bottom: 6px; margin-bottom: 14px;
+}
+.rv-bio { font-size: 14px; color: var(--text-secondary); line-height: 1.7; }
+.rv-skills { display: flex; flex-wrap: wrap; gap: 8px; }
+.rv-skill { padding: 4px 12px; background: var(--primary-light); color: var(--primary); border-radius: 20px; font-size: 13px; font-weight: 500; }
+
+.rv-item { margin-bottom: 18px; }
+.rv-item-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px; }
+.rv-item-title { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+.rv-item-sub { font-size: 13px; color: var(--text-secondary); font-style: italic; }
+.rv-item-date { font-size: 13px; color: var(--text-secondary); white-space: nowrap; margin-left: 16px; }
+.rv-item-desc { font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin-top: 6px; }
+
+@media print {
+  .resume-toolbar, .resume-note { display: none; }
+  .resume-preview { box-shadow: none; border: none; }
+}

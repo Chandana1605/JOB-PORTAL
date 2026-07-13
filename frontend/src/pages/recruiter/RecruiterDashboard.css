@@ -1,0 +1,20 @@
+.company-avatar {
+  width: 72px; height: 72px; border-radius: 14px; background: var(--primary);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 28px; font-weight: 800; color: white; font-family: var(--font-display);
+  margin: 0 auto 12px; overflow: hidden;
+}
+.company-avatar img { width: 100%; height: 100%; object-fit: contain; }
+
+.recruiter-jobs-list { display: flex; flex-direction: column; }
+.recruiter-job-item {
+  display: flex; align-items: center; gap: 16px; padding: 14px 0;
+  border-bottom: 1px solid var(--border-light);
+}
+.recruiter-job-item:last-child { border-bottom: none; }
+.rji-info { flex: 1; min-width: 0; }
+.rji-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+.rji-meta { font-size: 13px; color: var(--text-secondary); display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.rji-stats { display: flex; gap: 14px; flex-shrink: 0; }
+.rji-count { display: flex; align-items: center; gap: 4px; font-size: 13px; color: var(--text-secondary); white-space: nowrap; }
+.rji-actions { display: flex; gap: 4px; flex-shrink: 0; }
